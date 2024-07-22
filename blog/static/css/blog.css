@@ -21,9 +21,18 @@ h4 {
     font-family: 'Lobster';
 }
 
+.date { 
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
 .post{
     margin-bottom: 70px;
 }
+
 
 .post h2 a,
 .post h2 a:visited {
@@ -33,4 +42,39 @@ h4 {
 
 .post > .date{
     float: right;
+}
+
+.post-form textarea,
+.post-form input {
+    width: 100%;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: #C25100;
+    background: none;
+    border-color: #C25100;
+}
+
+.btn-secondary:hover {
+    color: #ffffff;
+    background-color: #C25100;
+}
+
+.post > .actions {
+    float: right;
+    margin-left : 10px;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
